@@ -31,7 +31,7 @@ const Todolist = () => {
           Add
         </button>
       </div>
-      <div className="mt-4 border-[1px] h-auto w-64 p-4 rounded">
+      <div className="mt-4 border-[1px] min-h-48 w-64 p-4 rounded">
         {items.map((item) => {
           return (
             <div className="flex flex-col" key={item.id}>
